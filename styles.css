@@ -1,0 +1,222 @@
+html,body {
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+  text-align: center;
+
+}
+
+.container-fluid {
+  padding:0;
+}
+
+
+                                      /* NAVBAR */
+#navibar {
+  background: rgb(161,29,29);
+  background: linear-gradient(90deg, rgba(111,11,18,1) 45%, rgba(111,11,18,1) 45%, rgba(111,11,18,1) 45%);
+  padding:0;
+
+}
+#navibar :hover {
+  background: rgb(43,43,43);
+  background: linear-gradient(90deg, rgba(14,13,13,1) 27%, rgba(14,13,13,1) 96%, rgba(14,13,13,1) 100%);
+}
+.nav-link {
+  color:#fff !important;
+}
+.nav-link:hover {
+  background: rgb(232,227,54) !important;
+  background: linear-gradient(90deg, rgba(232,227,54,1) 0%, rgba(240,95,85,1) 0%) !important;
+
+}
+
+                                 /* Title */
+
+.title-img{
+    position: relative;
+}
+.title-img::after {
+    content:'';
+    background: url('images/try.jpg');
+    background-size: cover;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width:100%;
+    height:90%;
+    z-index:-1;
+    opacity: 0.3;
+
+}
+
+
+
+.title1 {
+   font-family: 'Lato', sans-serif;
+   font-weight: 300;
+   color:#000;
+   font-size: 4.5rem;
+   margin: 0 auto;
+   text-align: center;
+   padding-top:10%;
+   padding-bottom: 1.5%;
+
+
+
+}
+
+
+.title2 {
+
+   padding-bottom: 10%;
+   font-size: 1.5rem;
+   display: inline-block;
+
+}
+
+                               /* Mission */
+
+#mission {
+text-align: center;
+}
+.mission-heading {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-top:0;
+  padding-bottom:3%;
+}
+
+.mission-text {
+  font-weight: 600;
+  padding-bottom:3%;
+}
+
+
+                      /* What is WeCBR */
+
+
+#wecbr {
+  line-height: 1.5;
+  text-align: center;
+}
+.heading {
+
+  color:#fff;
+  background-color:rgba(111,11,18,1);
+  padding:2% 5%;
+}
+
+.heading-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  margin: 0 10%;
+  text-align: left;
+  font-size: 25px;
+}
+
+
+.wecbr-text1 {
+  font-family: 'Lato', sans-serif;
+  margin: 0 13%;
+  line-height:1.5;
+  text-align: left;
+  padding-top: 2%;
+  padding-bottom: 1%;
+
+}
+.wecbr-text2 {
+  font-family: 'Lato', sans-serif;
+  margin: 0 13%;
+  line-height:1.5;
+  text-align: left;
+  padding-bottom: 3%;
+
+}
+/* What Makes Us Different */
+
+#wedifferent {
+  text-align: center;
+  line-height: 1.5;
+}
+
+
+.wedifferent-text {
+  font-family: 'Lato', sans-serif;
+  margin: 0 13%;
+  line-height:1.5;
+  text-align: left;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+
+                                       /* Core Values */
+
+#core-values {
+  line-height: 1.5;
+}
+
+.core-values-heading {
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+  font-size: 35px;
+  color:rgba(111,11,18,1);
+  padding-top: 4%;
+  padding-bottom:2%;
+}
+.core-text {
+  padding-top: 1%;
+  padding-bottom: 2%;
+  margin:0 auto;
+}
+.teamwork {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  color:rgba(111,11,18,1);
+}
+.teamwork-text {
+  font-family: 'Lato', sans-serif;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  margin:0 auto;
+}
+
+/* Culture */
+.culture-text {
+  font-family: 'Lato', sans-serif;
+  margin: 0 13%;
+  line-height:1.5;
+  text-align: left;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+/* Want to work with us */
+.partnership {
+  font-family: 'Lato', sans-serif;
+  margin: 0 13%;
+  line-height:1.5;
+  text-align: left;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.tag {
+  color:rgba(111,11,18,1);
+}
+/* Footer */
+#foot {
+  background-color: #171515;
+  color:#fff;
+
+
+}
+
+.copyright {
+  margin:0 auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
